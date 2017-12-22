@@ -1,0 +1,54 @@
+h1,
+h2,
+.pricing{
+  font-family: Helvetica;
+  font-weight: bold;
+
+}
+h1 {
+  font-size: 100px;
+  color: khaki;
+  text-align: center;
+  background-image: url("../Images/pattern.jpeg");
+  background-size: cover;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  color: white;
+  margin-top: 0px;
+  }
+
+.pricing {
+  color: blue;
+  border: 1px khaki solid;
+  background-color: khaki;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  transition-duration: 0.5s;
+}
+
+.pricing:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+#frames {background-color: lightcoral;}
+#brushes {background-color: mediumspringgreen;}
+#paint {background-color: skyblue;}
+
+.container {
+  display: flex;
+}
+
+.column {
+text-align: center;
+flex: 1;
+}
+
+.column img{
+border-radius: 50%;
+border: 5px double lightcoral;
+}
